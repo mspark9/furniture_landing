@@ -14,6 +14,10 @@ const Review = () => {
                             <p className='mb-4'>{review.review}</p>
                             <div className='flex items-center mt-4'>
                                 <img src={review.image} alt={review.name} className='w-12 h-12 rounded-full mr-4' />
+                                <div>
+                                    <p className='text-sm font-bold'>{review.name}</p>
+                                    <p className='text-sm text-neutral-500'>{review.title}</p>
+                                </div>
                             </div>
                         </div>
                     ))
